@@ -11,3 +11,10 @@ spring:
 
   profiles:
     include: oauth
+
+  session:
+    store-type: jdbc
+
+logging:
+  level:
+    io.todak.study.springboot: debug
